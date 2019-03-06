@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hang-Person</title>
+    <link rel="stylesheet" type="text/css" ref="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body onload="gameLoop()">
+    <header>
+
+        <div class="jumbotron text-center">
+            <h1>WORDINATOR 2: WORDMENT DAY!</h1>
+            <br>
+            <h3>Press Any Key to Get Started!</h3>
+        </div>
+
+    </header>
+    <div class="text-center">
+        <div>
+            <div><span id="word-display"></span></div>
+        </div>
+        <br>
+        <div>
+
+            <div>You chose: <span id="user-guess"></span></div>
+
+        </div>
+        <br>
+
+
+        <div>
+            <div>Remaining Guesses: <span id="guesses-remaining"></span></div>
+        </div>
+
+        <div>
+            <div>Letters Guessed: <span id="letters-picked"></span></div>
+        </div>
+
+        <div>
+            <div>Total Wins: <span id="total-wins"></span></div>
+        </div>
+
+        <div>
+            <div>Total Losses: <span id="total-losses"></span></div>
+        </div>
+    </div>
+
+
+    <script src="./assets/javascript/game.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
